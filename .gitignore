@@ -4,12 +4,14 @@
 *.iml
 *.db
 out
+
 database.properties
 hibernate.cfg.xml
 hibernate.properties
 *.properties
 *.yaml
-application.yaml
+*.yml
+application.*
 
 *.idea
 /target
