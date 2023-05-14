@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: eclient2
+  config:
+    import: configserver:http://localhost:8888
+  profiles:
+    active: micro
+
+
+
+
