@@ -1,4 +1,4 @@
-package ua.bugaienko.eurekaclient.controllers;
+package ua.bugaienko.eurekaclient2.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
  */
 
 @RestController
-@RequestMapping("/main")
-public class TestController {
+@RequestMapping("/new")
+public class NewController {
 
-    @GetMapping("/test")
+    @GetMapping("/hello")
     public String test() {
-        return "test request";
+        return "Hello World";
     }
 }
